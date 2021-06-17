@@ -1,9 +1,12 @@
 import javax.swing.JOptionPane;
 import javax.swing.UIManager;
+import javax.swing.plaf.ColorUIResource;
 
 public class Test {
 
 	public static void main(String[] args) {
+		UIManager.put("OptionPane.background",new ColorUIResource(255,191,0));
+		UIManager.put("Panel.background",new ColorUIResource(255,191,0));
 		int x = 0;
 		int score = 0;
 		String correct = "Pareizi";
