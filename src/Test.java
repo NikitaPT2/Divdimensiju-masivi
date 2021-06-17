@@ -174,7 +174,7 @@ public class Test {
             break;
 	            
 	    	case 9:
-	    	playerAnswerString = JOptionPane.showInputDialog(null, "A = vajag būt [][], B = nevajag new int, C = masīvs nevar būt ar dažādu elementu skaitu vienā rindā, D = lieki {}","Kā kārtot divdimensiju masīvu?", JOptionPane.QUESTION_MESSAGE);
+	    	playerAnswerString = JOptionPane.showInputDialog(null, "A = vajag būt [][], B = nevajag new int, C = masīvs nevar būt ar dažādu elementu skaitu vienā rindā, D = lieki {}","Kādas kļūdas ir šajā masīvā? int[] myArray = new int {{18,28},{28,45,90},{45,3,14}};", JOptionPane.QUESTION_MESSAGE);
 
             System.out.println(playerAnswerString+"   "+playerAnswer);
 
