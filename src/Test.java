@@ -22,7 +22,7 @@ public class Test {
 	    
 	    for(x = 0; x < 10; x++)
 	    {
-	    	JOptionPane.showMessageDialog(null, quizQuestion[x]);
+	    	JOptionPane.showMessageDialog(null, quizQuestion[x],"????",JOptionPane.QUESTION_MESSAGE);
 	    	switch(x) {
 	    	case 0:
 	    	playerAnswerString = JOptionPane.showInputDialog(null, "A = modernākajām, B = mirušajām, C = vecajām, D = progresīvākajām", "Valoda Java ir viena no ... valodām", JOptionPane.QUESTION_MESSAGE);
@@ -31,12 +31,12 @@ public class Test {
 
             if(playerAnswerString.toUpperCase().equals("AD"))
             {
-                JOptionPane.showMessageDialog(null, correct);
+                JOptionPane.showMessageDialog(null, correct, ":)",JOptionPane.INFORMATION_MESSAGE);
                 score++;
             }
             else
             {
-                JOptionPane.showMessageDialog(null, incorrect);
+                JOptionPane.showMessageDialog(null, incorrect, ":(",JOptionPane.ERROR_MESSAGE);
             }
             break;
             
@@ -47,12 +47,12 @@ public class Test {
 
             if(playerAnswerString.toUpperCase().equals("ABC"))
             {
-                JOptionPane.showMessageDialog(null, correct);
+            	JOptionPane.showMessageDialog(null, correct, ":)",JOptionPane.INFORMATION_MESSAGE);
                 score++;
             }
             else
             {
-                JOptionPane.showMessageDialog(null, incorrect);
+                JOptionPane.showMessageDialog(null, incorrect, ":(",JOptionPane.ERROR_MESSAGE);
             }
             break;
 	            
@@ -64,12 +64,12 @@ public class Test {
 
             if(playerAnswerString.toUpperCase().equals("AC"))
             {
-                JOptionPane.showMessageDialog(null, correct);
+            	JOptionPane.showMessageDialog(null, correct, ":)",JOptionPane.INFORMATION_MESSAGE);
                 score++;
             }
             else
             {
-                JOptionPane.showMessageDialog(null, incorrect);
+            	JOptionPane.showMessageDialog(null, incorrect, ":(",JOptionPane.ERROR_MESSAGE);
             }
             break;
 	            
@@ -80,12 +80,12 @@ public class Test {
 
             if(playerAnswerString.toUpperCase().equals("BC"))
             {
-                JOptionPane.showMessageDialog(null, correct);
+            	JOptionPane.showMessageDialog(null, correct, ":)",JOptionPane.INFORMATION_MESSAGE);
                 score++;
             }
             else
             {
-                JOptionPane.showMessageDialog(null, incorrect);
+            	JOptionPane.showMessageDialog(null, incorrect, ":(",JOptionPane.ERROR_MESSAGE);
             }
             break;
             
@@ -97,12 +97,12 @@ public class Test {
 
             if(playerAnswerString.toUpperCase().equals("BD"))
             {
-                JOptionPane.showMessageDialog(null, correct);
+            	JOptionPane.showMessageDialog(null, correct, ":)",JOptionPane.INFORMATION_MESSAGE);
                 score++;
             }
             else
             {
-                JOptionPane.showMessageDialog(null, incorrect);
+            	JOptionPane.showMessageDialog(null, incorrect, ":(",JOptionPane.ERROR_MESSAGE);
             }
             break;
             
@@ -114,12 +114,12 @@ public class Test {
 
             if(playerAnswerString.toUpperCase().equals("BD"))
             {
-                JOptionPane.showMessageDialog(null, correct);
+            	JOptionPane.showMessageDialog(null, correct, ":)",JOptionPane.INFORMATION_MESSAGE);
                 score++;
             }
             else
             {
-                JOptionPane.showMessageDialog(null, incorrect);
+            	JOptionPane.showMessageDialog(null, incorrect, ":(",JOptionPane.ERROR_MESSAGE);
             }
             break;
             
@@ -131,12 +131,12 @@ public class Test {
 
             if(playerAnswerString.toUpperCase().equals("AC"))
             {
-                JOptionPane.showMessageDialog(null, correct);
+            	JOptionPane.showMessageDialog(null, correct, ":)",JOptionPane.INFORMATION_MESSAGE);
                 score++;
             }
             else
             {
-                JOptionPane.showMessageDialog(null, incorrect);
+            	JOptionPane.showMessageDialog(null, incorrect, ":(",JOptionPane.ERROR_MESSAGE);
             }
             break;
 	            
@@ -148,12 +148,12 @@ public class Test {
 
             if(playerAnswerString.toUpperCase().equals("AD"))
             {
-                JOptionPane.showMessageDialog(null, correct);
+            	JOptionPane.showMessageDialog(null, correct, ":)",JOptionPane.INFORMATION_MESSAGE);
                 score++;
             }
             else
             {
-                JOptionPane.showMessageDialog(null, incorrect);
+            	JOptionPane.showMessageDialog(null, incorrect, ":(",JOptionPane.ERROR_MESSAGE);
             }
             break;
 	            
@@ -164,12 +164,12 @@ public class Test {
 
             if(playerAnswerString.toUpperCase().equals("AD"))
             {
-                JOptionPane.showMessageDialog(null, correct);
+            	JOptionPane.showMessageDialog(null, correct, ":)",JOptionPane.INFORMATION_MESSAGE);
                 score++;
             }
             else
             {
-                JOptionPane.showMessageDialog(null, incorrect);
+            	JOptionPane.showMessageDialog(null, incorrect, ":(",JOptionPane.ERROR_MESSAGE);
             }
             break;
 	            
@@ -180,12 +180,12 @@ public class Test {
 
             if(playerAnswerString.toUpperCase().equals("AB"))
             {
-                JOptionPane.showMessageDialog(null, correct);
+            	JOptionPane.showMessageDialog(null, correct, ":)",JOptionPane.INFORMATION_MESSAGE);
                 score++;
             }
             else
             {
-                JOptionPane.showMessageDialog(null, incorrect);
+            	JOptionPane.showMessageDialog(null, incorrect, ":(",JOptionPane.ERROR_MESSAGE);
             }
             break;
 	    	}
