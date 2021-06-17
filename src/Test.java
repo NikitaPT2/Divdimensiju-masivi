@@ -183,7 +183,7 @@ public class Test {
             }
             break;
 	    	}
-	   
 	        }
+	    JOptionPane.showMessageDialog(null, "You scored " + score + "/10.");
 	    }
 }
