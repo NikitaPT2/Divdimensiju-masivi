@@ -3,7 +3,7 @@
 ### :clipboard: *Divdimensiju masīvi programmēšanas valodā Java* :clipboard:
 Šajā programma ir vajadzīga, lai pārbaudīt zināšanas par tēmu "Divdimensiju masīvi programmēšanas valodā Java".
 
-Šis projekts ietvēra: arī Excel failu ar koda testēšanu.
+Šis projekts ietvēra:
 1.	Java kodu, kuru mes izdarījam Eclipse
 2.	test.jar failu, lai palaidiet programmu no mapes
 3.	Excel failu ar koda testēšanu
